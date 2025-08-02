@@ -38,3 +38,18 @@ let abahowa = temp>=35 ? "Turn on the Ac" :
 temp>=30?"Turn on the fan " : "vai kono gorom nai  fan ar ac off kor";
 
 console.log(abahowa);
+
+
+
+// problem : 6 -->
+let mark=78;
+let r = mark>=33 ? "you are pass "+
+        (mark>=80 ? "you have to got A+":
+            mark>70? "you have to got A": "you get A-"
+        )
+
+        : "you are fail"
+
+    console.log(r);
+
+
