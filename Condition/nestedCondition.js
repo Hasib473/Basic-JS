@@ -27,3 +27,16 @@ else{
     console.log("you are Fail")
 }
 
+
+
+
+// once more problem use ternary operation in 
+
+let temp =45;
+ 
+let result = temp >30 ? "Today is a hot day ." +
+(temp >40 ? "please turn on the ac" : "Pleae on the Fan")
+: "Its a cold day";
+
+console.log(result);
+
